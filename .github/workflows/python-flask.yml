@@ -28,7 +28,7 @@ jobs:
 
       - name: docker tag
         run: |
-          sudo docker tag python-flask:$DOCKER_TAG ramupunuru/python-flask:$DOCKER_TAG
+          sudo docker tag python-flask:$DOCKER_TAG vineelaraya/python-flask:$DOCKER_TAG
 
       - name: Push Docker Image
         run: sudo docker push ramupunuru/python-flask:$DOCKER_TAG
